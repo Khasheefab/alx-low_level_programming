@@ -5,6 +5,7 @@
  * main - print if positive or negative or zero
  *
  * Description using the main function
+ * this program prints "Programming is positive, negative or zero
  * Return: 0
  */
 int main(void)
@@ -19,7 +20,7 @@ int main(void)
 
 	if (1 > 5)
 {
-		printf("Last digit of %d is %d and is greater than 5\n", n , l);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 }
 	else if (1 == 0)
 {
