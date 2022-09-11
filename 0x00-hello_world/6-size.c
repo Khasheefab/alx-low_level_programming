@@ -1,17 +1,11 @@
 #include <stdio.h>
 
-
-
 /**
-
 *main - print string in put function
-
 *
-
 * Description: Using main function
-
+* this program prints "Programming is like building a multilingual puzzle
 * Return: 0
-
 */
 
 int main(void)
@@ -19,13 +13,9 @@ int main(void)
 {
 
 char c;
-
 int i;
-
 long li;
-
 long long lli;
-
 float f;
 
 
