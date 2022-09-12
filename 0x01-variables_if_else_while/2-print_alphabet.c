@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print if number positive, negative or zero
+ * main - 2-print_alphabet.c
  *
  * Description: using the main function
  * This program prints "Programming is positive, negative or zero
@@ -14,7 +14,7 @@ int main(void)
 	for (ch = 'a', ch <= 'z' . ch++)
 
 	putchar(ch);
-	putchar('\n')
+	putchar('\n');
 	return (0);
 
 }
