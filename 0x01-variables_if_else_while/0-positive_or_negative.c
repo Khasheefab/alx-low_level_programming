@@ -3,11 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there*/
 /**
- * main - print if positive, negative or zero
+ *  main -print if positive, negative or zero
  *
- * Return: 0
+ *  REturn: 0
  */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero\n". n);
+		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
 	return (0);
