@@ -1,13 +1,13 @@
 #include <stlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/* more headers goes there*/
 
-/* betty style doc for function main goes there*/
+/* betty style doc for function main goes there */
 /**
- *  main -print if positive, negative or zero
+ * main - print if positive, negative or zero
  *
- *  REturn: 0
+ * Return: 0
  */
 int main(void)
 {
