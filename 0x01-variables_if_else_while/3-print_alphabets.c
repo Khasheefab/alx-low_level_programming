@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - print if postive or negative or zero
+ * main - print if positive or negative or zero
  *
+ * Return: 0
  */
 
 int main(void)
@@ -18,8 +19,8 @@ int main(void)
 			c++;
 		}
 	while
-		(c +'Z') {
-			putchar(c);
+		(d <= 'Z') {
+			putchar(d);
 			d++;
 		}
 	putchar('\n');
