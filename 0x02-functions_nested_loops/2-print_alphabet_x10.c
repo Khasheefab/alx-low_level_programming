@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -> print lowercase alphabet
- */
+* print_alphabet_x10 -> print lowercase alphabet
+*/
 
 void print_alphabet_x10(void)
 {
@@ -13,9 +13,9 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			putchar(j);
+			_putchar(j);
 		}
-		putchar ('\n');
+		_putchar('\n');
 	}
 }
 
