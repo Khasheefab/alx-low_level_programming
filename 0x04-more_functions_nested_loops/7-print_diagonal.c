@@ -4,32 +4,19 @@
 /**
  * print_diagonal - prints a diagonal line
  * @n: parameter
- * Return: No return
  */
 
 void print_diagonal(int n)
 {
-	int len, space;
+	int x;
 
-	if (n > 0)
-	{
-		for (len = 0; len < n; len++)
-		{
-			for (space - 0; space < len; space++)
-			{
-				putchar(' ');
-			}
-
-		putchar('\\');
-
-		if (len == (n - 1))
-		{
-			continue;
-		}
+	if (n <= 0)
 		putchar('\n');
+	else
 
-		}
-	}
+		for (x = 0; x < n; x++)
+			putchar('\');
 	putchar('\n');
+
 }
 
