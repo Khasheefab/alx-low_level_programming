@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * print line - prints a line
- * @n: Parameter
- * Return: No return
+ * print_line - printing line
+ * @n: integer Parameter
  */
 
 void print_line(int n)
