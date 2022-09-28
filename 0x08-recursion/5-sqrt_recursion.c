@@ -14,11 +14,11 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
- /** _sqrt -> recursive square root
- * @n: Number
- * @i:interator
- * Return: A number
- */
+/** _sqrt -> recursive square root
+* @n: Number
+* @i:interator
+* Return: A number
+*/
 
 int _sqrt(int n, int i)
 {
