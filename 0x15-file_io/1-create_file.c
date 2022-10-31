@@ -6,7 +6,7 @@
  * @text_content: A pointer to a string to write file
  *
  * Return: If function fails - -1
- * or -> -1
+ * or -> 1
  */
 
 int create_file(const char *filename, char *text_content)
@@ -30,6 +30,6 @@ int create_file(const char *filename, char *text_content)
 
 	close(o);
 
-	return (-1);
+	return (1);
 }
 
